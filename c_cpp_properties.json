@@ -1,0 +1,33 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "defines": [
+                "DSTM32F10X_CL",
+                "DCFG_ARM_CM3",
+                "DUSE_ECUM",
+                "DUSE_MCU",
+                "OS_SW_MAJOR_VERSION=2",
+                "OS_SW_MINOR_VERSION=0"
+            ],
+            "cStandard": "c99",
+            "intelliSenseMode": "linux-gcc-x64",
+            "includePath": [
+                "${default}",
+                "${workspaceFolder}/include",
+                "${workspaceFolder}/include/arm",
+                "${workspaceFolder}/include/arm/arm_cm3",
+                "${workspaceFolder}/include/sys",
+                "${workspaceFolder}/system/kernel/include",
+                "${workspaceFolder}/arch/arm/arm_cm3/kernel",
+                "${workspaceFolder}/system/EcuM",
+                "${workspaceFolder}/system/SchM",
+                "${workspaceFolder}/arch/arm/arm_cm3/drivers/STM32F10x_StdPeriph_Driver/inc",
+                "${workspaceFolder}/boards/stm32_stm3210c/examples/os_simple/config",
+                "${workspaceFolder}/app/config",
+                "${workspaceFolder}/app/config/GEN"
+            ]
+        }
+    ],
+    "version": 4
+}
